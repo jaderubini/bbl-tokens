@@ -1,0 +1,161 @@
+{
+  "dimension": {
+    "base": {
+      "value": "8px",
+      "type": "dimension",
+      "description": "Base unit for the dimension scale."
+    },
+    "xxs": {
+      "value": "{dimension.xs}/2",
+      "type": "dimension"
+    },
+    "xs": {
+      "value": "{dimension.sm}/2",
+      "type": "dimension"
+    },
+    "sm": {
+      "value": "{dimension.md}/2",
+      "type": "dimension"
+    },
+    "md": {
+      "value": "{dimension.base}",
+      "type": "dimension"
+    },
+    "lg": {
+      "value": "{dimension.md}*1.5",
+      "type": "dimension"
+    },
+    "xl": {
+      "value": "{dimension.md}*2",
+      "type": "dimension"
+    },
+    "xxl": {
+      "value": "{dimension.md}*3",
+      "type": "dimension"
+    },
+    "hg": {
+      "value": "{dimension.md}*4",
+      "type": "dimension"
+    },
+    "xh": {
+      "value": "{dimension.md}*6",
+      "type": "dimension"
+    },
+    "xxh": {
+      "value": "{dimension.md}*8",
+      "type": "dimension"
+    },
+    "gt": {
+      "value": "{dimension.md}*10",
+      "type": "dimension"
+    },
+    "xg": {
+      "value": "{dimension.md}*12",
+      "type": "dimension"
+    },
+    "xxg": {
+      "value": "{dimension.md}*16",
+      "type": "dimension"
+    }
+  },
+  "border": {
+    "radius": {
+      "sharp": {
+        "value": "0",
+        "type": "borderRadius"
+      },
+      "semiround": {
+        "value": "{border.radius.round}/2",
+        "type": "borderRadius"
+      },
+      "round": {
+        "value": "{dimension.sm}",
+        "type": "borderRadius"
+      },
+      "extraround": {
+        "value": "{border.radius.round}*2",
+        "type": "borderRadius"
+      },
+      "pill": {
+        "value": "{dimension.xxg}",
+        "type": "borderRadius"
+      },
+      "circle": {
+        "value": "50%",
+        "type": "borderRadius"
+      }
+    },
+    "width": {
+      "thin": {
+        "value": "{border.width.regular}/2",
+        "type": "borderWidth"
+      },
+      "regular": {
+        "value": "{dimension.xs}",
+        "type": "borderWidth"
+      },
+      "thick": {
+        "value": "{border.width.regular}*2",
+        "type": "borderWidth"
+      }
+    }
+  },
+  "spacing": {
+    "inset": {
+      "tight": {
+        "value": {
+          "spacing": "{dimension.md}"
+        },
+        "type": "composition"
+      },
+      "compact": {
+        "value": {
+          "spacing": "{dimension.xl}"
+        },
+        "type": "composition"
+      },
+      "cozy": {
+        "value": {
+          "spacing": "{dimension.xxl}"
+        },
+        "type": "composition"
+      },
+      "comfortable": {
+        "value": {
+          "spacing": "{dimension.hg}"
+        },
+        "type": "composition"
+      }
+    },
+    "squish": {
+      "tight": {
+        "value": {
+          "verticalPadding": "{dimension.sm}",
+          "horizontalPadding": "{dimension.lg}"
+        },
+        "type": "composition"
+      },
+      "compact": {
+        "value": {
+          "verticalPadding": "{dimension.md}",
+          "horizontalPadding": "{dimension.xl}"
+        },
+        "type": "composition"
+      },
+      "cozy": {
+        "value": {
+          "verticalPadding": "{dimension.lg}",
+          "horizontalPadding": "{dimension.xxl}"
+        },
+        "type": "composition"
+      },
+      "comfortable": {
+        "value": {
+          "verticalPadding": "{dimension.xl}",
+          "horizontalPadding": "{dimension.hg}"
+        },
+        "type": "composition"
+      }
+    }
+  }
+}

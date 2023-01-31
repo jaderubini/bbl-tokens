@@ -1,0 +1,21 @@
+{
+  "font": {
+    "size": {
+      "scale": {
+        "value": "1.125",
+        "type": "fontSizes",
+        "description": "Major 2nd. Type Scale for small screen sizes (540px and below)"
+      }
+    }
+  },
+  "grid": {
+    "gap": {
+      "value": "{dimension.xl}",
+      "type": "spacing"
+    },
+    "margin": {
+      "value": "{dimension.xxl}",
+      "type": "spacing"
+    }
+  }
+}

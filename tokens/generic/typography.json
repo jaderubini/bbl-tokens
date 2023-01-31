@@ -1,0 +1,250 @@
+{
+  "font": {
+    "family": {
+      "default": {
+        "value": "\"Source Sans 3\"",
+        "type": "fontFamilies",
+        "description": "Global default for neutral (or functional) typeface. Usually applied to body copy and UI elements, sometimes to subheadings."
+      },
+      "brand": {
+        "value": "Geomanist",
+        "type": "fontFamilies",
+        "description": "Global default for the brand typeface. Usually applied to headings and subheadings."
+      },
+      "mono": {
+        "value": "Inconsolata",
+        "type": "fontFamilies",
+        "description": "Global default for monospaced typeface. Applied to code snippets and API-related information."
+      }
+    },
+    "size": {
+      "base": {
+        "value": "16",
+        "type": "fontSizes",
+        "description": "Global default for the base font-size (1rem), which is the starting point for the Type Scale."
+      },
+      "scale": {
+        "value": "1",
+        "type": "fontSizes",
+        "description": "Value hold for type scales."
+      },
+      "xs": {
+        "value": "round({font.size.sm}/{font.size.scale})",
+        "type": "fontSizes"
+      },
+      "sm": {
+        "value": "round({font.size.md}/{font.size.scale})",
+        "type": "fontSizes"
+      },
+      "md": {
+        "value": "{font.size.base}",
+        "type": "fontSizes"
+      },
+      "lg": {
+        "value": "round({font.size.base}*{font.size.scale})",
+        "type": "fontSizes"
+      },
+      "xl": {
+        "value": "round({font.size.lg}*{font.size.scale})",
+        "type": "fontSizes"
+      },
+      "xxl": {
+        "value": "round({font.size.xl}*{font.size.scale})",
+        "type": "fontSizes"
+      },
+      "hg": {
+        "value": "round({font.size.xxl}*{font.size.scale})",
+        "type": "fontSizes"
+      },
+      "xh": {
+        "value": "round({font.size.hg}*{font.size.scale})",
+        "type": "fontSizes"
+      },
+      "xxh": {
+        "value": "round({font.size.xh}*{font.size.scale})",
+        "type": "fontSizes"
+      }
+    },
+    "weight": {
+      "100": {
+        "value": "100",
+        "type": "fontWeights",
+        "description": "Thin, Hairline"
+      },
+      "200": {
+        "value": "200",
+        "type": "fontWeights",
+        "description": "Extra-Light, Ultra-Light"
+      },
+      "300": {
+        "value": "300",
+        "type": "fontWeights",
+        "description": "Light"
+      },
+      "400": {
+        "value": "400",
+        "type": "fontWeights",
+        "description": "Regular, Book, Normal"
+      },
+      "500": {
+        "value": "500",
+        "type": "fontWeights",
+        "description": "Medium"
+      },
+      "600": {
+        "value": "600",
+        "type": "fontWeights",
+        "description": "Semi-Bold, Demi-Bold"
+      },
+      "700": {
+        "value": "700",
+        "type": "fontWeights",
+        "description": "Bold"
+      },
+      "800": {
+        "value": "800",
+        "type": "fontWeights",
+        "description": "Extra-Bold, Ultra-Bold"
+      },
+      "900": {
+        "value": "900",
+        "type": "fontWeights",
+        "description": "Black, Heavy"
+      },
+      "950": {
+        "value": "950",
+        "type": "fontWeights",
+        "description": "Extra-Black, Ultra-Heavy"
+      }
+    },
+    "lineHeight": {
+      "tight": {
+        "value": "100%",
+        "type": "lineHeights",
+        "description": "For better height control on UI elements"
+      },
+      "compact": {
+        "value": "125%",
+        "type": "lineHeights",
+        "description": "For headings and low-density UI copy"
+      },
+      "cozy": {
+        "value": "150%",
+        "type": "lineHeights",
+        "description": "For subtitles and body copy"
+      },
+      "comfortable": {
+        "value": "175%",
+        "type": "lineHeights",
+        "description": "For long form copy like articles and blog posts"
+      }
+    },
+    "letterSpacing": {
+      "tight": {
+        "value": "-2%",
+        "type": "letterSpacing",
+        "description": "For large text (mostly headings)"
+      },
+      "default": {
+        "value": "0",
+        "type": "letterSpacing",
+        "description": "Default letter-spacing"
+      },
+      "loose": {
+        "value": "2%",
+        "type": "letterSpacing",
+        "description": "For small text (mostly overlines)"
+      }
+    },
+    "case": {
+      "none": {
+        "value": "none",
+        "type": "textCase"
+      },
+      "lower": {
+        "value": "lowercase",
+        "type": "textCase"
+      },
+      "upper": {
+        "value": "uppercase",
+        "type": "textCase"
+      }
+    },
+    "decoration": {
+      "none": {
+        "value": "none",
+        "type": "textDecoration"
+      },
+      "underline": {
+        "value": "underline",
+        "type": "textDecoration"
+      },
+      "strike": {
+        "value": "line-through",
+        "type": "textDecoration"
+      }
+    },
+    "style": {
+      "italic": {
+        "value": "Italic",
+        "type": "fontWeights",
+        "description": "Stackable modifier for applying italics to typography compositions."
+      }
+    }
+  },
+  "dimension": {
+    "base": {
+      "value": "8px",
+      "type": "dimension",
+      "description": "Base unit for the dimension scale."
+    },
+    "xxs": {
+      "value": "{dimension.xs}/2",
+      "type": "dimension"
+    },
+    "xs": {
+      "value": "{dimension.sm}/2",
+      "type": "dimension"
+    },
+    "sm": {
+      "value": "{dimension.md}/2",
+      "type": "dimension"
+    },
+    "md": {
+      "value": "{dimension.base}",
+      "type": "dimension"
+    },
+    "lg": {
+      "value": "{dimension.md}*2",
+      "type": "dimension"
+    },
+    "xl": {
+      "value": "{dimension.md}*3",
+      "type": "dimension"
+    },
+    "xxl": {
+      "value": "{dimension.md}*4",
+      "type": "dimension"
+    },
+    "hg": {
+      "value": "{dimension.md}*6",
+      "type": "dimension"
+    },
+    "xh": {
+      "value": "{dimension.md}*8",
+      "type": "dimension"
+    },
+    "xxh": {
+      "value": "{dimension.md}*10",
+      "type": "dimension"
+    },
+    "gt": {
+      "value": "{dimension.md}*12",
+      "type": "dimension"
+    },
+    "xg": {
+      "value": "{dimension.md}*16",
+      "type": "dimension"
+    }
+  }
+}

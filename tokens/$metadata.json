@@ -1,0 +1,10 @@
+{
+  "tokenSetOrder": [
+    "generic/typography",
+    "generic/dimensions",
+    "domain/product",
+    "domain/dashboard",
+    "domain/marketing",
+    "semantic/typography"
+  ]
+}
