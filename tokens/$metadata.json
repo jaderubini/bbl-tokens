@@ -4,7 +4,7 @@
     "generic/dimensions",
     "domain/product",
     "domain/dashboard",
-    "domain/marketing",
+    "domain/brand",
     "semantic/typography"
   ]
 }
