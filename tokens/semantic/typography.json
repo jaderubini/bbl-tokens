@@ -446,7 +446,7 @@
         }
       }
     },
-    "numbers": {
+    "highlight": {
       "lg": {
         "value": "{typography.heading.md}",
         "type": "typography"
