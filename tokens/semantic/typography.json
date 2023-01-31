@@ -23,6 +23,10 @@
         "type": "fontWeights",
         "description": "Designated default font-weight applied to heading elements and big numbers."
       },
+      "body": {
+        "value": "{font.weight.400}",
+        "type": "fontWeights"
+      },
       "code": {
         "value": "{font.weight.400}",
         "type": "fontWeights",
