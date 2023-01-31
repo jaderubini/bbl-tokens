@@ -1,1 +1,36 @@
-[]
+[
+  {
+    "id": "f55de6abed4072411650f95b9d711dd071e27c58",
+    "name": "Product",
+    "selectedTokenSets": {
+      "generic/typography": "enabled",
+      "generic/dimensions": "enabled",
+      "domain/product": "enabled",
+      "semantic/typography": "enabled"
+    },
+    "$figmaStyleReferences": {}
+  },
+  {
+    "id": "d0055861ce1d87f06f666fb187801b10cd6e2374",
+    "name": "Dashboard",
+    "selectedTokenSets": {
+      "generic/typography": "enabled",
+      "generic/dimensions": "enabled",
+      "domain/product": "enabled",
+      "domain/dashboard": "enabled",
+      "semantic/typography": "enabled"
+    },
+    "$figmaStyleReferences": {}
+  },
+  {
+    "id": "40f2df7dc9553cb2849872221d30c213f3c92749",
+    "name": "Brand",
+    "selectedTokenSets": {
+      "generic/typography": "enabled",
+      "generic/dimensions": "enabled",
+      "domain/brand": "enabled",
+      "semantic/typography": "enabled"
+    },
+    "$figmaStyleReferences": {}
+  }
+]
