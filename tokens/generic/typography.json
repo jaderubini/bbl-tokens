@@ -1,15 +1,15 @@
 {
   "font": {
     "family": {
-      "default": {
-        "value": "\"Source Sans 3\"",
-        "type": "fontFamilies",
-        "description": "Global default for neutral (or functional) typeface. Usually applied to body copy and UI elements, sometimes to subheadings."
-      },
       "brand": {
         "value": "Geomanist",
         "type": "fontFamilies",
         "description": "Global default for the brand typeface. Usually applied to headings and subheadings."
+      },
+      "default": {
+        "value": "\"Source Sans 3\"",
+        "type": "fontFamilies",
+        "description": "Global default for neutral (or functional) typeface. Usually applied to body copy and UI elements, sometimes to subheadings."
       },
       "mono": {
         "value": "Inconsolata",
