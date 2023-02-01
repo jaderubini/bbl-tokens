@@ -5,6 +5,10 @@
         "value": "1.25",
         "type": "fontSizes",
         "description": "Major 3rd. Type Scale for medium and large screen sizes (541px and above)"
+      },
+      "xs": {
+        "value": "ceil({font.size.sm}/{font.size.scale})",
+        "type": "fontSizes"
       }
     }
   },
