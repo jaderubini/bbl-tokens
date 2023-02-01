@@ -2,7 +2,7 @@
   "font": {
     "family": {
       "brand": {
-        "value": "Geomanist",
+        "value": "Figtree",
         "type": "fontFamilies",
         "description": "Global default for the brand typeface. Usually applied to headings and subheadings."
       },
