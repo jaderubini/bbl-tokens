@@ -6,6 +6,10 @@
         "type": "fontFamilies",
         "description": "Designated font-family applied to heading elements and big numbers."
       },
+      "subtitle": {
+        "value": "{font.family.brand}",
+        "type": "fontFamilies"
+      },
       "body": {
         "value": "{font.family.default}",
         "type": "fontFamilies",
@@ -19,9 +23,13 @@
     },
     "weight": {
       "heading": {
-        "value": "{font.weight.500}",
+        "value": "{font.weight.600}",
         "type": "fontWeights",
         "description": "Designated default font-weight applied to heading elements and big numbers."
+      },
+      "subtitle": {
+        "value": "{font.weight.400}",
+        "type": "fontWeights"
       },
       "body": {
         "value": "{font.weight.400}",
@@ -146,27 +154,27 @@
     "subtitle": {
       "lg": {
         "value": {
-          "fontFamily": "{font.family.body}",
+          "fontFamily": "{font.family.subtitle}",
           "lineHeight": "{font.lineHeight.body}",
-          "fontWeight": "{font.weight.400}",
+          "fontWeight": "{font.weight.subtitle}",
           "fontSize": "{font.size.xxl}"
         },
         "type": "typography"
       },
       "md": {
         "value": {
-          "fontFamily": "{font.family.body}",
+          "fontFamily": "{font.family.subtitle}",
           "lineHeight": "{font.lineHeight.body}",
-          "fontWeight": "{font.weight.400}",
+          "fontWeight": "{font.weight.subtitle}",
           "fontSize": "{font.size.xl}"
         },
         "type": "typography"
       },
       "sm": {
         "value": {
-          "fontFamily": "{font.family.body}",
+          "fontFamily": "{font.family.subtitle}",
           "lineHeight": "{font.lineHeight.body}",
-          "fontWeight": "{font.weight.400}",
+          "fontWeight": "{font.weight.subtitle}",
           "fontSize": "{font.size.lg}"
         },
         "type": "typography"
